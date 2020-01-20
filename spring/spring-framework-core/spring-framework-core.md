@@ -10,7 +10,7 @@ Spring이 없어도 이런 장치만 마련되어 있다면 얼마든지 사용�
 스프링 IoC 컨테이너는 애플리케이션 컴포넌트의 중앙 저장소.   
 Bean 설정 소스로부터 Bean 정의를 읽고, 구성하고, 제공한다.
 
-Spring이 제공하는 IoC 컨테이너를 사용하는 걸 권장하는 이유는 여러 Dependency Injection 방법들을 고려해서 개발되었기 떄문.
+Spring이 제공하는 IoC 컨테이너를 사용하는 걸 권장하는 이유는 여러 Dependency Injection 방법들을 고려해서 개발되었기 때문.
 
 컨테이너라고 부르는 이유는 IoC 기능을 제공하는 여러 객체들을 가지고 있기 때문.
 
@@ -22,7 +22,7 @@ Annotation을 통해 일반적인 클래스를 Bean으로 쉽게 등록하고, �
 Spring IoC Container의 가장 최상단에 있는 인터페이스(가장 핵심)는 **BeanFactory**.  
 가장 많이 사용하게 될 BeanFactory는 **ApplicationContext**.
 
-ApplicationContect는 BeanFactory를 상속받았음.
+ApplicationContext는 BeanFactory를 상속받았음.
 BeanFactory의 기능 외에도
 * ApplicationEventPublisher
 * EnvironmentCapable
