@@ -35,7 +35,8 @@ BeanFactory의 기능 외에도
 등등 다양한 기능이 있음.
 
 ### **Bean이란?**
-스프링 IoC 컨테이너가 관리하는 객체.
+애플리케이션의 핵심을 이루는 객체.   
+스프링 IoC 컨테이너에 의해 생성, 인스턴스화, 관리된다.
 
 `@Repository`, `@Serivce` 등등의 어노테이션이 붙으면 Auto-scan을 통해 해당 클래스가 Bean으로 등록된다.
 
@@ -290,3 +291,4 @@ public class DemoApplication {
 
 }
 ```
+
